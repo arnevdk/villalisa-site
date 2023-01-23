@@ -1,0 +1,17 @@
+iframe {
+  margin: 0 !important;
+}
+.airbnb-embed-frame {
+  position: relative;
+  width: 450px;
+}
+
+.airbnb-embed-frame iframe {
+  position: absolute !important;
+  top: -17px;
+  right: -28px;
+}
+
+.panel-airbnb-iframe {
+  height: 461.5px;
+}

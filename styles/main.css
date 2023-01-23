@@ -1,0 +1,74 @@
+html,
+body,
+main {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  #background-color: #ddd;
+  font-family: "GFS Didot";
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+main {
+  margin: auto;
+  max-width: 12in;
+}
+
+.panel {
+  display: flex;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  height: 6in;
+}
+
+.panel > .subpanel {
+  display: inline-block;
+
+}
+
+.subpanel-left{
+	margin-right: 1.5em;
+}
+.subpanel-right{
+	margin-left 1.5em;
+}
+
+.subpanel-mid{
+	margin-right: 1.5em;
+	margin-left 1.5em;
+}
+.panel .panel-content {
+  padding: 1.5rem;
+}
+.panel .panel-img {
+  width: 100%;
+  background-repeat: no-repeat;
+  #background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.panel .panel-30 {
+  width: 30%;
+}
+
+.panel .panel-40 {
+  width: 40%;
+}
+
+.panel .panel-60 {
+  width: 60%;
+}
+.panel .panel-70 {
+  width: 70%;
+}
+
+.panel .panel-teal {
+  background-color: #008489;
+  color: white;
+}
